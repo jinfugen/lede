@@ -51,10 +51,13 @@ jobs:
           sed -i 's/console=tty0//g'  target/linux/x86/image/Makefile
 
       - name: Generate configuration file
-        run: make defconfig
+        run: | 
+          chmod +x ./config.sh
+          ./config.sh
+          make defconfig
 
       - name: Download packages
-        run: make download -j16
+        run: make download -j8
 
       - name: Compile firmware
         run: |
