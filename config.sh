@@ -1,3 +1,5 @@
+#cat >> .config <<EOF
+#EOF
 cat >> .config <<EOF
 #
 # Automatically generated file; DO NOT EDIT.
@@ -1781,7 +1783,7 @@ CONFIG_HTOP_LMSENSORS=y
 # CONFIG_PACKAGE_monit-nossl is not set
 # CONFIG_PACKAGE_muninlite is not set
 # CONFIG_PACKAGE_netatop is not set
-CONFIG_PACKAGE_netdata=m
+CONFIG_PACKAGE_netdata=y
 # CONFIG_PACKAGE_nload is not set
 # CONFIG_PACKAGE_nmon is not set
 # CONFIG_PACKAGE_nyx is not set
@@ -1925,8 +1927,8 @@ CONFIG_PACKAGE_amdgpu-firmware=y
 # CONFIG_PACKAGE_ath11k-firmware-wcn6855 is not set
 # CONFIG_PACKAGE_ath6k-firmware is not set
 # CONFIG_PACKAGE_ath9k-htc-firmware is not set
-CONFIG_PACKAGE_bnx2-firmware=m
-CONFIG_PACKAGE_bnx2x-firmware=y
+# CONFIG_PACKAGE_bnx2-firmware is not set
+# CONFIG_PACKAGE_bnx2x-firmware is not set
 # CONFIG_PACKAGE_brcmfmac-firmware-4329-sdio is not set
 # CONFIG_PACKAGE_brcmfmac-firmware-43430-sdio-rpi-3b is not set
 # CONFIG_PACKAGE_brcmfmac-firmware-43430-sdio-rpi-zero-w is not set
@@ -2259,7 +2261,7 @@ CONFIG_PACKAGE_kmod-fs-vfat=y
 # CONFIG_PACKAGE_kmod-hwmon-adcxx is not set
 # CONFIG_PACKAGE_kmod-hwmon-adt7410 is not set
 # CONFIG_PACKAGE_kmod-hwmon-adt7475 is not set
-CONFIG_PACKAGE_kmod-hwmon-core=y
+# CONFIG_PACKAGE_kmod-hwmon-core is not set
 # CONFIG_PACKAGE_kmod-hwmon-dme1737 is not set
 # CONFIG_PACKAGE_kmod-hwmon-drivetemp is not set
 # CONFIG_PACKAGE_kmod-hwmon-f71882fg is not set
@@ -2402,7 +2404,7 @@ CONFIG_PACKAGE_kmod-asn1-encoder=m
 CONFIG_PACKAGE_kmod-lib-crc-ccitt=y
 # CONFIG_PACKAGE_kmod-lib-crc-itu-t is not set
 CONFIG_PACKAGE_kmod-lib-crc16=y
-CONFIG_PACKAGE_kmod-lib-crc32c=y
+CONFIG_PACKAGE_kmod-lib-crc32c=m
 # CONFIG_PACKAGE_kmod-lib-crc7 is not set
 # CONFIG_PACKAGE_kmod-lib-crc8 is not set
 # CONFIG_PACKAGE_kmod-lib-lz4 is not set
@@ -2467,7 +2469,7 @@ CONFIG_PACKAGE_kmod-ip6tables=y
 # CONFIG_PACKAGE_kmod-ipt-compat-xtables is not set
 # CONFIG_PACKAGE_kmod-ipt-condition is not set
 CONFIG_PACKAGE_kmod-ipt-conntrack=y
-CONFIG_PACKAGE_kmod-ipt-conntrack-extra=m
+CONFIG_PACKAGE_kmod-ipt-conntrack-extra=y
 # CONFIG_PACKAGE_kmod-ipt-conntrack-label is not set
 CONFIG_PACKAGE_kmod-ipt-core=y
 # CONFIG_PACKAGE_kmod-ipt-debug is not set
@@ -2482,7 +2484,7 @@ CONFIG_PACKAGE_kmod-ipt-fullconenat=y
 # CONFIG_PACKAGE_kmod-ipt-hashlimit is not set
 # CONFIG_PACKAGE_kmod-ipt-iface is not set
 # CONFIG_PACKAGE_kmod-ipt-ipmark is not set
-CONFIG_PACKAGE_kmod-ipt-ipopt=m
+CONFIG_PACKAGE_kmod-ipt-ipopt=y
 # CONFIG_PACKAGE_kmod-ipt-ipp2p is not set
 # CONFIG_PACKAGE_kmod-ipt-iprange is not set
 CONFIG_PACKAGE_kmod-ipt-ipsec=y
@@ -2557,11 +2559,11 @@ CONFIG_PACKAGE_kmod-nfnetlink=y
 # Network Devices
 #
 # CONFIG_PACKAGE_kmod-3c59x is not set
-CONFIG_PACKAGE_kmod-8139cp=y
-CONFIG_PACKAGE_kmod-8139too=y
-CONFIG_PACKAGE_kmod-alx=y
-CONFIG_PACKAGE_kmod-amazon-ena=y
-CONFIG_PACKAGE_kmod-amd-xgbe=m
+# CONFIG_PACKAGE_kmod-8139cp is not set
+# CONFIG_PACKAGE_kmod-8139too is not set
+# CONFIG_PACKAGE_kmod-alx is not set
+# CONFIG_PACKAGE_kmod-amazon-ena is not set
+# CONFIG_PACKAGE_kmod-amd-xgbe is not set
 # CONFIG_PACKAGE_kmod-atl1 is not set
 # CONFIG_PACKAGE_kmod-atl1c is not set
 # CONFIG_PACKAGE_kmod-atl1e is not set
@@ -2569,46 +2571,46 @@ CONFIG_PACKAGE_kmod-amd-xgbe=m
 # CONFIG_PACKAGE_kmod-atlantic is not set
 # CONFIG_PACKAGE_kmod-b44 is not set
 # CONFIG_PACKAGE_kmod-be2net is not set
-CONFIG_PACKAGE_kmod-bnx2=m
-CONFIG_PACKAGE_kmod-bnx2x=y
+# CONFIG_PACKAGE_kmod-bnx2 is not set
+# CONFIG_PACKAGE_kmod-bnx2x is not set
 # CONFIG_PACKAGE_kmod-bnxt-en is not set
 # CONFIG_PACKAGE_kmod-dm9000 is not set
 CONFIG_PACKAGE_kmod-dummy=m
 # CONFIG_PACKAGE_kmod-e100 is not set
 CONFIG_PACKAGE_kmod-e1000=y
-CONFIG_PACKAGE_kmod-e1000e=y
+# CONFIG_PACKAGE_kmod-e1000e is not set
 # CONFIG_PACKAGE_kmod-et131x is not set
 # CONFIG_PACKAGE_kmod-ethoc is not set
 # CONFIG_PACKAGE_kmod-fixed-phy is not set
-CONFIG_PACKAGE_kmod-forcedeth=m
+# CONFIG_PACKAGE_kmod-forcedeth is not set
 # CONFIG_PACKAGE_kmod-hfcmulti is not set
 # CONFIG_PACKAGE_kmod-hfcpci is not set
-CONFIG_PACKAGE_kmod-i40e=y
-CONFIG_PACKAGE_kmod-iavf=y
+# CONFIG_PACKAGE_kmod-i40e is not set
+# CONFIG_PACKAGE_kmod-iavf is not set
 # CONFIG_PACKAGE_kmod-ice is not set
 # CONFIG_PACKAGE_kmod-ifb is not set
-CONFIG_PACKAGE_kmod-igb=y
-CONFIG_PACKAGE_kmod-igbvf=y
-CONFIG_PACKAGE_kmod-igc=y
+# CONFIG_PACKAGE_kmod-igb is not set
+# CONFIG_PACKAGE_kmod-igbvf is not set
+# CONFIG_PACKAGE_kmod-igc is not set
 # CONFIG_PACKAGE_kmod-ipvlan is not set
-CONFIG_PACKAGE_kmod-ixgbe=y
+# CONFIG_PACKAGE_kmod-ixgbe is not set
 # CONFIG_PACKAGE_kmod-ixgbevf is not set
 # CONFIG_PACKAGE_kmod-lan743x is not set
 CONFIG_PACKAGE_kmod-libphy=y
 CONFIG_PACKAGE_kmod-macvlan=y
-CONFIG_PACKAGE_kmod-mdio-devres=y
+CONFIG_PACKAGE_kmod-mdio-devres=m
 # CONFIG_PACKAGE_kmod-mdio-gpio is not set
 # CONFIG_PACKAGE_kmod-mhi-net is not set
 # CONFIG_PACKAGE_kmod-mhi-wwan-ctrl is not set
 # CONFIG_PACKAGE_kmod-mhi-wwan-mbim is not set
 CONFIG_PACKAGE_kmod-mii=y
-CONFIG_PACKAGE_kmod-mlx4-core=m
-CONFIG_PACKAGE_kmod-mlx5-core=m
+# CONFIG_PACKAGE_kmod-mlx4-core is not set
+# CONFIG_PACKAGE_kmod-mlx5-core is not set
 # CONFIG_PACKAGE_kmod-natsemi is not set
 # CONFIG_PACKAGE_kmod-ne2k-pci is not set
 # CONFIG_PACKAGE_kmod-net-selftests is not set
 # CONFIG_PACKAGE_kmod-niu is not set
-CONFIG_PACKAGE_kmod-pcnet32=y
+# CONFIG_PACKAGE_kmod-pcnet32 is not set
 # CONFIG_PACKAGE_kmod-phy-aquantia is not set
 # CONFIG_PACKAGE_kmod-phy-ax88796b is not set
 # CONFIG_PACKAGE_kmod-phy-bcm84881 is not set
@@ -2622,7 +2624,7 @@ CONFIG_PACKAGE_kmod-phy-realtek=m
 # CONFIG_PACKAGE_kmod-qlcnic is not set
 # CONFIG_PACKAGE_kmod-r6040 is not set
 # CONFIG_PACKAGE_kmod-r8101 is not set
-CONFIG_PACKAGE_kmod-r8125=y
+# CONFIG_PACKAGE_kmod-r8125 is not set
 CONFIG_PACKAGE_kmod-r8168=y
 CONFIG_PACKAGE_kmod-r8169=m
 # CONFIG_PACKAGE_kmod-sfc is not set
@@ -2646,10 +2648,10 @@ CONFIG_PACKAGE_kmod-r8169=m
 # CONFIG_PACKAGE_kmod-switch-rtl8366s is not set
 # CONFIG_PACKAGE_kmod-switch-rtl8367 is not set
 # CONFIG_PACKAGE_kmod-switch-rtl8367b is not set
-CONFIG_PACKAGE_kmod-tg3=y
+# CONFIG_PACKAGE_kmod-tg3 is not set
 CONFIG_PACKAGE_kmod-tulip=y
 # CONFIG_PACKAGE_kmod-via-rhine is not set
-CONFIG_PACKAGE_kmod-via-velocity=y
+# CONFIG_PACKAGE_kmod-via-velocity is not set
 CONFIG_PACKAGE_kmod-vmxnet3=y
 # CONFIG_PACKAGE_kmod-wwan is not set
 # end of Network Devices
@@ -2688,7 +2690,6 @@ CONFIG_PACKAGE_kmod-iptunnel6=y
 # CONFIG_PACKAGE_kmod-l2tp-ip is not set
 # CONFIG_PACKAGE_kmod-macremapper is not set
 # CONFIG_PACKAGE_kmod-macsec is not set
-CONFIG_PACKAGE_kmod-mdio=y
 # CONFIG_PACKAGE_kmod-misdn is not set
 # CONFIG_PACKAGE_kmod-mpls is not set
 # CONFIG_PACKAGE_kmod-nat46 is not set
@@ -2797,10 +2798,10 @@ CONFIG_PACKAGE_kmod-mmc=y
 # CONFIG_PACKAGE_kmod-pinctrl-mcp23s08-i2c is not set
 # CONFIG_PACKAGE_kmod-pinctrl-mcp23s08-spi is not set
 # CONFIG_PACKAGE_kmod-ppdev is not set
-CONFIG_PACKAGE_kmod-pps=y
+# CONFIG_PACKAGE_kmod-pps is not set
 # CONFIG_PACKAGE_kmod-pps-gpio is not set
 # CONFIG_PACKAGE_kmod-pps-ldisc is not set
-CONFIG_PACKAGE_kmod-ptp=y
+# CONFIG_PACKAGE_kmod-ptp is not set
 CONFIG_PACKAGE_kmod-random-core=m
 # CONFIG_PACKAGE_kmod-reed-solomon is not set
 # CONFIG_PACKAGE_kmod-rtc-ds1307 is not set
@@ -4862,7 +4863,7 @@ CONFIG_PACKAGE_luci-app-adbyby-plus=y
 # CONFIG_PACKAGE_luci-app-ahcp is not set
 # CONFIG_PACKAGE_luci-app-airplay2 is not set
 # CONFIG_PACKAGE_luci-app-aliyundrive-fuse is not set
-CONFIG_PACKAGE_luci-app-aliyundrive-webdav=m
+# CONFIG_PACKAGE_luci-app-aliyundrive-webdav is not set
 # CONFIG_PACKAGE_luci-app-amule is not set
 # CONFIG_PACKAGE_luci-app-argon-config is not set
 # CONFIG_PACKAGE_luci-app-aria2 is not set
@@ -4916,10 +4917,10 @@ CONFIG_PACKAGE_luci-app-ipsec-vpnd=y
 # CONFIG_PACKAGE_luci-app-mjpg-streamer is not set
 # CONFIG_PACKAGE_luci-app-mosdns is not set
 # CONFIG_PACKAGE_luci-app-music-remote-center is not set
-CONFIG_PACKAGE_luci-app-mwan3=m
-CONFIG_PACKAGE_luci-app-mwan3helper=m
+CONFIG_PACKAGE_luci-app-mwan3=y
+CONFIG_PACKAGE_luci-app-mwan3helper=y
 # CONFIG_PACKAGE_luci-app-n2n is not set
-CONFIG_PACKAGE_luci-app-netdata=m
+CONFIG_PACKAGE_luci-app-netdata=y
 # CONFIG_PACKAGE_luci-app-nfs is not set
 # CONFIG_PACKAGE_luci-app-nft-qos is not set
 CONFIG_PACKAGE_luci-app-nlbwmon=y
@@ -4952,7 +4953,7 @@ CONFIG_PACKAGE_luci-app-qbittorrent_static=y
 CONFIG_PACKAGE_luci-app-qbittorrent-simple_dynamic=y
 # CONFIG_PACKAGE_luci-app-qos is not set
 # CONFIG_PACKAGE_luci-app-radicale is not set
-CONFIG_PACKAGE_luci-app-ramfree=m
+CONFIG_PACKAGE_luci-app-ramfree=y
 # CONFIG_PACKAGE_luci-app-rclone is not set
 CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui=y
 CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng=y
@@ -4995,7 +4996,7 @@ CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Server=y
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan is not set
 # CONFIG_PACKAGE_luci-app-ssrserver-python is not set
 # CONFIG_PACKAGE_luci-app-statistics is not set
-CONFIG_PACKAGE_luci-app-syncdial=m
+CONFIG_PACKAGE_luci-app-syncdial=y
 # CONFIG_PACKAGE_luci-app-tinyproxy is not set
 # CONFIG_PACKAGE_luci-app-transmission is not set
 # CONFIG_PACKAGE_luci-app-travelmate is not set
@@ -5030,7 +5031,7 @@ CONFIG_PACKAGE_luci-app-vsftpd=y
 # CONFIG_PACKAGE_luci-app-wifischedule is not set
 CONFIG_PACKAGE_luci-app-wireguard=y
 CONFIG_PACKAGE_luci-app-wol=y
-CONFIG_PACKAGE_luci-app-wrtbwmon=m
+CONFIG_PACKAGE_luci-app-wrtbwmon=y
 CONFIG_PACKAGE_luci-app-xlnetacc=y
 CONFIG_PACKAGE_luci-app-zerotier=y
 # end of 3. Applications
@@ -5089,8 +5090,6 @@ CONFIG_PACKAGE_luci-lib-nixio_openssl=y
 CONFIG_PACKAGE_default-settings=y
 CONFIG_PACKAGE_luci-i18n-accesscontrol-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-adbyby-plus-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-aliyundrive-webdav-zh-cn=m
-# CONFIG_PACKAGE_luci-i18n-aliyundrive-webdav-zh_Hans is not set
 CONFIG_PACKAGE_luci-i18n-arpbind-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-autoreboot-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-base-ca is not set
@@ -5186,14 +5185,14 @@ CONFIG_PACKAGE_luci-i18n-firewall-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-ipsec-vpnd-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-mwan3-ja is not set
 # CONFIG_PACKAGE_luci-i18n-mwan3-ru is not set
-CONFIG_PACKAGE_luci-i18n-mwan3-zh-cn=m
+CONFIG_PACKAGE_luci-i18n-mwan3-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-mwan3-zh-tw is not set
-CONFIG_PACKAGE_luci-i18n-mwan3helper-zh-cn=m
-CONFIG_PACKAGE_luci-i18n-netdata-zh-cn=m
+CONFIG_PACKAGE_luci-i18n-mwan3helper-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-netdata-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-nlbwmon-ja is not set
 # CONFIG_PACKAGE_luci-i18n-nlbwmon-ru is not set
 CONFIG_PACKAGE_luci-i18n-nlbwmon-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-ramfree-zh-cn=m
+CONFIG_PACKAGE_luci-i18n-ramfree-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-samba4-ca is not set
 # CONFIG_PACKAGE_luci-i18n-samba4-cs is not set
 # CONFIG_PACKAGE_luci-i18n-samba4-de is not set
@@ -5281,7 +5280,7 @@ CONFIG_PACKAGE_luci-i18n-wireguard-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-wol-vi is not set
 CONFIG_PACKAGE_luci-i18n-wol-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-wol-zh-tw is not set
-CONFIG_PACKAGE_luci-i18n-wrtbwmon-zh-cn=m
+CONFIG_PACKAGE_luci-i18n-wrtbwmon-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-xlnetacc-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
 # end of LuCI
@@ -5332,7 +5331,7 @@ CONFIG_PACKAGE_UnblockNeteaseMusic-Go=y
 # CONFIG_UNBLOCKNETEASEMUSIC_GO_COMPRESS_GOPROXY is not set
 # CONFIG_UNBLOCKNETEASEMUSIC_GO_COMPRESS_UPX is not set
 # CONFIG_PACKAGE_aliyundrive-fuse is not set
-CONFIG_PACKAGE_aliyundrive-webdav=m
+# CONFIG_PACKAGE_aliyundrive-webdav is not set
 # CONFIG_PACKAGE_ffmpeg is not set
 # CONFIG_PACKAGE_ffprobe is not set
 # CONFIG_PACKAGE_fswebcam is not set
@@ -5483,7 +5482,7 @@ CONFIG_PACKAGE_iptables=y
 # CONFIG_PACKAGE_iptables-mod-cluster is not set
 # CONFIG_PACKAGE_iptables-mod-clusterip is not set
 # CONFIG_PACKAGE_iptables-mod-condition is not set
-CONFIG_PACKAGE_iptables-mod-conntrack-extra=m
+CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
 # CONFIG_PACKAGE_iptables-mod-delude is not set
 # CONFIG_PACKAGE_iptables-mod-dhcpmac is not set
 # CONFIG_PACKAGE_iptables-mod-dnetmap is not set
@@ -5495,7 +5494,7 @@ CONFIG_PACKAGE_iptables-mod-fullconenat=y
 # CONFIG_PACKAGE_iptables-mod-hashlimit is not set
 # CONFIG_PACKAGE_iptables-mod-iface is not set
 # CONFIG_PACKAGE_iptables-mod-ipmark is not set
-CONFIG_PACKAGE_iptables-mod-ipopt=m
+CONFIG_PACKAGE_iptables-mod-ipopt=y
 # CONFIG_PACKAGE_iptables-mod-ipp2p is not set
 # CONFIG_PACKAGE_iptables-mod-iprange is not set
 CONFIG_PACKAGE_iptables-mod-ipsec=y
@@ -5819,7 +5818,7 @@ CONFIG_PACKAGE_ip-full=y
 # CONFIG_PACKAGE_lldpd is not set
 # CONFIG_PACKAGE_mcproxy is not set
 # CONFIG_PACKAGE_mrmctl is not set
-CONFIG_PACKAGE_mwan3=m
+CONFIG_PACKAGE_mwan3=y
 # CONFIG_PACKAGE_nstat is not set
 # CONFIG_PACKAGE_olsrd is not set
 # CONFIG_PACKAGE_prince is not set
